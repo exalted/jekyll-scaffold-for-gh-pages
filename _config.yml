@@ -13,6 +13,9 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+# Handling Reading
+exclude: ["Gemfile", "Gemfile.lock", "README.md"]
+
 # GitHub Pages Defaults
 # (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#defaults)
 # highlighter: pygments
