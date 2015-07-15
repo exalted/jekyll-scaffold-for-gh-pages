@@ -12,3 +12,21 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# GitHub Pages Defaults
+# (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#defaults)
+# highlighter: pygments
+# github: [Repository metadata]
+
+# GitHub Pages Overrides (you cannot change this)
+# (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)
+# safe: true
+# lsi: false
+# source: your top-level directory
+
+# Jekyll Plugins with GitHub Pages
+# (Ref.: https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
+gems:
+- jekyll-sitemap
+- jekyll-redirect-from
+- jemoji
