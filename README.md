@@ -7,8 +7,8 @@ Known to be working and scaffolded with `bundle exec jekyll --version # jekyll 2
 
 ```
 git clone https://github.com/exalted/jekyll-scaffold-for-gh-pages.git --origin upstream my-awesome-website
-git remote add origin <url of your new GitHub repository>
 cd my-awesome-website/
+git remote add origin <url of your new GitHub repository>
 script/bootsrap
 ```
 
