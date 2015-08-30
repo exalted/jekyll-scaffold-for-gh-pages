@@ -1,3 +1,8 @@
+# About
+
+This repository is a bare scaffold for [Jekyll](http://jekyllrb.com), ready to be published on [GitHub Pages](https://pages.github.com).
+
+
 # Info
 
 Known to be working and scaffolded with `bundle exec jekyll --version # jekyll 2.4.0`.
