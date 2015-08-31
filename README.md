@@ -1,6 +1,6 @@
 # About
 
-This repository is a bare scaffold for [Jekyll](http://jekyllrb.com), ready to be published on [GitHub Pages](https://pages.github.com).
+This repository is a bare scaffold for [Jekyll](http://jekyllrb.com), ready to be published on [GitHub Pages](https://pages.github.com) and some workflow goodies for development and publishing.
 
 
 # Info
