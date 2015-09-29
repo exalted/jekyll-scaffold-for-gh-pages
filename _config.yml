@@ -37,5 +37,6 @@ exclude:
 # (Ref.: https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
 gems:
 - jekyll-sitemap
+- jekyll-feed
 - jekyll-redirect-from
 - jemoji
