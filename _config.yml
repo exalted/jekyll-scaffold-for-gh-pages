@@ -29,21 +29,31 @@ exclude:
   - "script/"
   - "README.md"
 
-# GitHub Pages Defaults
-# (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#defaults)
-# highlighter: pygments
-# github: [Repository metadata]
-
-# GitHub Pages Overrides (you cannot change this)
-# (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)
-# safe: true
+## GitHub Pages Overrides (Configuration settings you cannot change)
+## (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)
 # lsi: false
-# source: your top-level directory
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
 
-# Jekyll Plugins with GitHub Pages
-# (Ref.: https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
+## GitHub Pages Defaults (Defaults you can change)
+## (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#defaults-you-can-change)
+# github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
 gems:
-- jekyll-sitemap
-# - jekyll-feed
-- jekyll-redirect-from
-- jemoji
+  - jekyll-coffeescript
+  - jekyll-paginate
+
+  ## Jekyll Plugins with GitHub Pages
+  ## (Ref.: https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+  # - jekyll-feed
