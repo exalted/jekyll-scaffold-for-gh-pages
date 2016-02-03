@@ -5,7 +5,7 @@ This repository is a bare scaffold for [Jekyll](http://jekyllrb.com), ready to b
 
 # Info
 
-Known to be working and scaffolded with `bundle exec jekyll --version # jekyll 2.4.0`.
+Known to be working and scaffolded with `bundle exec jekyll --version # jekyll 3.0.2`.
 
 
 # Getting Started
