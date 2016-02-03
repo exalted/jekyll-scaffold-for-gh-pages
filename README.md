@@ -38,9 +38,15 @@ Learn more about [GitHub Pages Features](https://help.github.com/categories/gith
 
 # For Developers
 
+## Update gems
+
+```
+bundle update # make sure to update this readme with latest jekyll version number.
+```
+
 ## Update scaffold
 
-In order to update for a different scaffoled (ideally vanilla and up-to-date rather than customized or superseded), with a clean working directory, do:
+In order to update for a different scaffolded (ideally vanilla and up-to-date rather than customized or superseded), with a clean working directory, do:
 
 ```
 bundle exec jekyll new --force .
