@@ -46,12 +46,11 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "debug",
+@import "debug"
 
-        "vendor/pesticide",
+      , "vendor/pesticide"
 
-        "base",
-        "layout",
-        "syntax-highlighting"
+      , "base"
+      , "layout"
+      , "syntax-highlighting"
 ;
