@@ -20,7 +20,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-# Handling Reading
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
@@ -30,7 +29,7 @@ exclude:
   - "README.md"
 
 ## GitHub Pages Overrides (Configuration settings you cannot change)
-## (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)
+## (Ref.: https://help.github.com/articles/configuring-jekyll/#configuration-settings-you-cannot-change)
 # lsi: false
 # safe: true
 # source: [your repo's top level directory]
@@ -38,9 +37,11 @@ exclude:
 # highlighter: rouge
 # gist:
 #   noscript: false
+# kramdown:
+#   math_engine: mathjax
 
 ## GitHub Pages Defaults (Defaults you can change)
-## (Ref.: https://help.github.com/articles/using-jekyll-with-pages/#defaults-you-can-change)
+## (Ref.: https://help.github.com/articles/configuring-jekyll/#defaults-you-can-change)
 # github: [metadata]
 kramdown:
   input: GFM
@@ -48,8 +49,7 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
-
-  ## Jekyll Plugins with GitHub Pages
+  ## Jekyll Plugins with GitHub Pages:
   ## (Ref.: https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
   - jekyll-mentions
   - jemoji
